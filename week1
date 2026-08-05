@@ -1,0 +1,28 @@
+# CSE Semester 1 - Week 1 Lecture Notes
+
+## 1. Programming Theory
+- **High-Level Languages**: Human-readable text (Python, C) that must be converted to run.
+- **Compiler**: Translates the entire source codebase all at once before running it (Fast execution).
+- **Interpreter**: Translates and executes code instructions line-by-line dynamically (Easy debugging).
+
+## 2. Computational Architecture
+- **Von Neumann Blueprint**: Central processing units separate operations into an Arithmetic Logic Unit (ALU) and a Control Unit (CU) tied to shared memory.
+- **Fetch-Decode-Execute**: The foundational clock cycle of computational chips.
+
+## 3. Storage Definitions
+- **RAM**: Random Access Memory. Fast, high-bandwidth, volatile (clears when powered off).
+- **Storage**: SSD/HDD. Slower, non-volatile, retains your persistent system files.
+
+## 🔬 Computer Architecture
+*   **Von Neumann Bottleneck**: CPU performance limits occur because code instructions and data pass through the same physical bus paths.
+*   **Registers**: Tiny, high-speed computational memory zones embedded directly into the central silicon core.
+
+## 🧮 Number Systems
+*   **Radix**: The absolute base count of unique digits used by a mathematical numbering language.
+*   Binary calculation uses base positional weights: $2^0=1, 2^1=2, 2^2=4, 2^3=8$.
+
+## ⚙️ Compilation Steps
+1. Preprocessor (Cleans code and imports libraries)
+2. Compiler (Generates CPU-specific Assembly text)
+3. Assembler (Creates machine code object blocks)
+4. Linker (Combines object blocks into a working application file)
